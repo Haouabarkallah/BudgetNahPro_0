@@ -1,0 +1,84 @@
+// Interface pour le calcul de note
+
+interface Gradable {
+    fun calculateGrade(): String
+}
+
+
+// Classe abstraite Person
+
+abstract class Person(
+    open val name: String
+) {
+    abstract fun describe(): String
+}
+
+
+
+// Data class Student
+
+data class Student(
+    override val name: String,
+    val score: Double?
+) : Person(name), Gradable {
+
+    override fun calculateGrade(): String {
+
+        val s = score ?: return "No Score"
+
+        return when {
+            s >= 90 -> "A"
+            s >= 80 -> "B"
+            s >= 70 -> "C"
+            s >= 60 -> "D"
+            else -> "F"
+        }
+    }
+
+    override fun describe(): String {
+        return if (score == null) {
+            "No score for $name"
+        } else {
+            "$name scored $score : Grade ${calculateGrade()}"
+        }
+    }
+}
+
+
+
+// Classe Teacher
+
+class Teacher(
+    override val name: String,
+    val subject: String
+) : Person(name) {
+
+    override fun describe(): String {
+        return "Teacher $name teaches $subject"
+    }
+
+    override fun toString(): String {
+        return "Teacher(name=$name, subject=$subject)"
+    }
+}
+
+
+// Classe principale
+
+fun main() {
+
+    // Polymorphisme : différentes classes dans une même liste
+    val people: List<Person> = listOf(
+        Student("Amira", 92.0),
+        Student("Bovan", 74.0),
+        Student("Clavia", null),
+        Teacher("Mr.Mbarga ", "Mathematics")
+    )
+
+    println("=== School Members ===")
+
+    // appel polymorphique
+    for (person in people) {
+        println(person.describe())
+    }
+}
