@@ -2,6 +2,7 @@
 <project version="4">
   <component name="deploymentTargetSelector">
     <selectionStates>
+<<<<<<< HEAD
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2026-04-13T02:39:35.140050800Z">
@@ -23,6 +24,16 @@
           </Target>
         </DropdownSelection>
         <DialogSelection />
+=======
+      <SelectionState runConfigName="BudgetNah">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="androidTest">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="MOBILE APP">
+        <option name="selectionMode" value="DROPDOWN" />
+>>>>>>> 61ff63c5e84dd91daa0d7a834a5900dbdcfa37c6
       </SelectionState>
     </selectionStates>
   </component>

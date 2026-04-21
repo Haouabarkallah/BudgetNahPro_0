@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">BudgetNah</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_expenses">Expenses</string>
+    <string name="nav_categories">Categories</string>
+
+    <!-- Expenses Screen -->
+    <string name="expenses_screen_title">BudgetNah</string>
+    <string name="expenses_empty_title">No expenses yet</string>
+    <string name="expenses_empty_subtitle">Tap the + button to record your first expense.</string>
+    <string name="add_expense_fab_description">Add Expense</string>
+    <string name="expense_delete_icon_description">Delete expense</string>
+
+    <!-- Add/Edit Expense Dialog -->
+    <string name="dialog_add_expense_title">Add Expense</string>
+    <string name="dialog_edit_expense_title">Edit Expense</string>
+    <string name="dialog_amount_label">Amount</string>
+    <string name="dialog_amount_placeholder">0.00</string>
+    <string name="dialog_category_label">Category</string>
+    <string name="dialog_date_label">Date</string>
+    <string name="dialog_btn_save">Save</string>
+    <string name="dialog_btn_cancel">Cancel</string>
+    <string name="dialog_amount_error">Please enter a valid amount greater than 0</string>
+    <string name="dialog_category_error">Please select a category</string>
+
+    <!-- Confirm Delete Expense Dialog -->
+    <string name="confirm_delete_expense_title">Delete Expense?</string>
+    <string name="confirm_delete_expense_message">This expense will be permanently deleted.</string>
+    <string name="confirm_delete_btn">Delete</string>
+    <string name="confirm_cancel_btn">Cancel</string>
+
+    <!-- Categories Screen -->
+    <string name="categories_screen_title">Manage Categories</string>
+    <string name="categories_new_category_placeholder">New category name</string>
+    <string name="categories_add_btn">Add</string>
+    <string name="categories_delete_icon_description">Delete category</string>
+    <string name="categories_empty">No categories available.</string>
+
+    <!-- Confirm Delete Category Dialog -->
+    <string name="confirm_delete_category_title">Delete Category?</string>
+    <string name="confirm_delete_category_message">All expenses in \"%s\" will also be permanently deleted. This action cannot be undone.</string>
+
+    <!-- Swipe to delete hint -->
+    <string name="swipe_to_delete_hint">Swipe left to delete</string>
+
+    <!-- Accessibility -->
+    <string name="category_icon_description">Category icon</string>
+    <string name="back_button_description">Back</string>
+</resources>

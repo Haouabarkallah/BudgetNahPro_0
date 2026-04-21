@@ -1,4 +1,4 @@
-#Tue Apr 21 15:24:16 CEST 2026
+#Tue Apr 21 16:15:22 CEST 2026
 base.0=C\:\\Users\\haoua\\AndroidStudioProjects\\BudgetNahPro\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\haoua\\AndroidStudioProjects\\BudgetNahPro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.10=C\:\\Users\\haoua\\AndroidStudioProjects\\BudgetNahPro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex

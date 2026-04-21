@@ -1,3 +1,12 @@
+#  BudgetNah
+
+![Android](https://img.shields.io/badge/Platform-Android-green)
+![Kotlin](https://img.shields.io/badge/Language-Kotlin-purple)
+![Architecture](https://img.shields.io/badge/Architecture-MVVM-blue)
+![Database](https://img.shields.io/badge/Database-Room-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+# BudgetNah – Smart Expense Manager
 #  BudgetNah – Smart Expense Manager
 
 BudgetNah est une application mobile Android moderne développée en Kotlin avec Jetpack Compose, permettant de gérer ses dépenses de manière intelligente, rapide et intuitive.
@@ -48,6 +57,7 @@ BudgetNah est une application mobile Android moderne développée en Kotlin avec
 - Export Excel (analyse avancée)
 - Partage de fichiers intégré
 
+### Expérience utilisateur
 ###  Expérience utilisateur
 - UI moderne avec Jetpack Compose
 - Dark Mode 
@@ -73,6 +83,7 @@ BudgetNah est construit avec une architecture moderne inspirée de **Clean Archi
 ##  Vue globale
 
 L’application est divisée en deux grandes couches :
+
 
 ---
 
@@ -107,6 +118,7 @@ data/
 │   ├── VoiceManager.kt → reconnaissance vocale
 ```
 
+### Rôle de la couche Data
 ###  Rôle de la couche Data
 - Gestion des données locales (Room)
 - Synchronisation cloud (Supabase)
@@ -182,6 +194,11 @@ Room (local) + Supabase (cloud)
 
 ---
 
+## Concepts clés utilisés
+
+-  **MVVM** → séparation UI / logique
+-  **StateFlow / Compose State** → UI réactive
+-  **Offline-first** → fonctionne sans internet
 ##  Concepts clés utilisés
 
 -  **MVVM** → séparation UI / logique
@@ -193,7 +210,7 @@ Room (local) + Supabase (cloud)
 
 ---
 
-##  Avantages de cette architecture
+## 📊 Avantages de cette architecture
 
 -  Facile à maintenir
 -  Prête pour scaling (web + backend)
@@ -203,12 +220,104 @@ Room (local) + Supabase (cloud)
 
 ---
 
-##  Évolution possible
 
--  Web App (React + Supabase)
--  AI catégorisation automatique
--  Notifications intelligentes
-- Analytics avancés
--  Clipboard (copier-coller rapide)
-- Parsing automatique (montant + catégorie)
+##  Technologies utilisées
 
+- Kotlin
+- Jetpack Compose
+- Room Database
+- Hilt (Dependency Injection)
+- Supabase (Auth + Cloud Sync)
+- ML Kit (OCR)
+- SpeechRecognizer (Voice Input)
+- Apache POI (Excel)
+- iText (PDF)
+- CameraX
+
+---
+
+##  Performance & Best Practices
+
+- Coroutines + Dispatchers.IO
+- Offline-first architecture
+- Lazy loading (Compose)
+- Separation of concerns
+- Reusable components
+
+---
+
+## Installation
+
+###  Cloner le repository
+
+```bash
+git clone https://github.com/Haouabarkallah/BudgetNah.git
+```
+
+###  Ouvrir le projet
+
+Ouvrir le projet dans **Android Studio**.
+
+### Synchroniser les dépendances
+
+Android Studio synchronisera automatiquement les dépendances Gradle.
+
+###  Lancer l'application
+
+Exécuter l’application sur :
+
+* un **émulateur Android**
+* ou un **appareil physique**
+
+---
+
+#  Améliorations futures
+
+*  Clipboard (copier-coller rapide)
+* Parsing automatique (montant + catégorie)
+* Gestion multi-utilisateurs (famille)
+* AI catégorisation automatique
+* Notifications intelligentes
+* Analytics avancés
+  
+
+---
+
+#  Contribution
+
+Les contributions sont les bienvenues.
+
+1. Fork le projet
+2. Créer une branche
+
+```
+git checkout -b feature/nouvelle-fonctionnalite
+```
+
+3. Commit les modifications
+
+```
+git commit -m "Ajout d'une nouvelle fonctionnalité"
+```
+
+4. Push la branche
+
+```
+git push origin feature/nouvelle-fonctionnalite
+```
+
+5. Ouvrir une **Pull Request**
+
+---
+
+#  Licence
+
+Ce projet est distribué sous licence **MIT**.
+
+---
+
+# Auteur
+
+Projet développé dans le cadre d’un apprentissage du **développement d’applications Android**.
+
+---
