@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.budgetnah.pro.presentation.features.expenses.ExpenseViewModel

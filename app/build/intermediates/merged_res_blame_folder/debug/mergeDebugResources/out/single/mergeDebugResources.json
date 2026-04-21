@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.budgetnah.pro.app-debug-79:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.budgetnah.pro.app-main-81:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.budgetnah.pro.app-debug-79:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.budgetnah.pro.app-main-81:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.budgetnah.pro.app-debug-79:/xml_file_paths.xml.flat",
+        "source": "com.budgetnah.pro.app-main-81:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.budgetnah.pro.app-debug-79:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.budgetnah.pro.app-main-81:/drawable/ic_launcher_foreground.xml"
+    }
+]

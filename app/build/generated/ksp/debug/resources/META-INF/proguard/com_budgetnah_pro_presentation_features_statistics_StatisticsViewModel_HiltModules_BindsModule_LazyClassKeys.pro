@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.budgetnah.pro.presentation.features.statistics.StatisticsViewModel

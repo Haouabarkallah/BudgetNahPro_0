@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.budgetnah.pro.app-mergeDebugResources-77:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\haoua\\.gradle\\caches\\9.3.1\\transforms\\5eede84ceefecf8b0c22df2e50bd5db3\\workspace\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}
