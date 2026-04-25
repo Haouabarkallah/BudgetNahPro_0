@@ -6,10 +6,9 @@
 ![Database](https://img.shields.io/badge/Database-Room-orange)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-# BudgetNah – Smart Expense Manager
 #  BudgetNah – Smart Expense Manager
 
-BudgetNah est une application mobile Android moderne développée en Kotlin avec Jetpack Compose, permettant de gérer ses dépenses de manière intelligente, rapide et intuitive.
+BudgetNah est une application mobile Android développée en Kotlin avec Jetpack Compose, permettant de gérer ses dépenses de manière intelligente, rapide et intuitive.
 
 ---
 
@@ -57,7 +56,6 @@ BudgetNah est une application mobile Android moderne développée en Kotlin avec
 - Export Excel (analyse avancée)
 - Partage de fichiers intégré
 
-### Expérience utilisateur
 ###  Expérience utilisateur
 - UI moderne avec Jetpack Compose
 - Dark Mode 
@@ -118,7 +116,6 @@ data/
 │   ├── VoiceManager.kt → reconnaissance vocale
 ```
 
-### Rôle de la couche Data
 ###  Rôle de la couche Data
 - Gestion des données locales (Room)
 - Synchronisation cloud (Supabase)
@@ -210,7 +207,7 @@ Room (local) + Supabase (cloud)
 
 ---
 
-## 📊 Avantages de cette architecture
+## Avantages de cette architecture
 
 -  Facile à maintenir
 -  Prête pour scaling (web + backend)
@@ -251,7 +248,7 @@ Room (local) + Supabase (cloud)
 ###  Cloner le repository
 
 ```bash
-git clone https://github.com/Haouabarkallah/BudgetNah.git
+git clone https://github.com/Haouabarkallah/BudgetNahPro_0.git
 ```
 
 ###  Ouvrir le projet
